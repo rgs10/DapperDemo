@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDemo", "DapperDemo.csproj", "{9B464F34-0BC9-4077-B682-0D0B046EBDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRepository.MultipleQuery.Sql", "TeamRepository.MultipleQuery.Sql\TeamRepository.MultipleQuery.Sql.csproj", "{41F4826F-B062-4E68-BBF5-59520753984C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database2", "Database2\Database2.sqlproj", "{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRespository.SingleQuerySql", "TeamRespository.SingleQuerySql\TeamRespository.SingleQuerySql.csproj", "{7796E362-2EF5-484E-9918-5E7FF4001004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRepository.Interface", "TeamRepository.Interface\TeamRepository.Interface.csproj", "{A77B1DE2-441D-4454-93DA-567D10162EF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B464F34-0BC9-4077-B682-0D0B046EBDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B464F34-0BC9-4077-B682-0D0B046EBDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B464F34-0BC9-4077-B682-0D0B046EBDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B464F34-0BC9-4077-B682-0D0B046EBDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F4826F-B062-4E68-BBF5-59520753984C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F4826F-B062-4E68-BBF5-59520753984C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F4826F-B062-4E68-BBF5-59520753984C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F4826F-B062-4E68-BBF5-59520753984C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A03DD3-00C9-4BFF-A5CA-5B0BCC21F1B4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7796E362-2EF5-484E-9918-5E7FF4001004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7796E362-2EF5-484E-9918-5E7FF4001004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7796E362-2EF5-484E-9918-5E7FF4001004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7796E362-2EF5-484E-9918-5E7FF4001004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRespository.SingleQuery
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamRepository.Interface", "TeamRepository.Interface\TeamRepository.Interface.csproj", "{A77B1DE2-441D-4454-93DA-567D10162EF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDemoTests", "DapperDemoTests\DapperDemoTests.csproj", "{89D4CD52-91AA-4D62-B886-6AD6B504D388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A77B1DE2-441D-4454-93DA-567D10162EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D4CD52-91AA-4D62-B886-6AD6B504D388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D4CD52-91AA-4D62-B886-6AD6B504D388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D4CD52-91AA-4D62-B886-6AD6B504D388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D4CD52-91AA-4D62-B886-6AD6B504D388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

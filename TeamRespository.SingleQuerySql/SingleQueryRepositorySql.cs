@@ -9,6 +9,7 @@ namespace TeamRespository.SingleQuerySql
 {
     public class SingleQueryRepositorySql : ITeamRepository
     {
+        private readonly  string connectionString = ConfigurationManager.ConnectionStrings["Test"].ConnectionString;
         public IList<Team> GetResultsList()
         {
             const string sql = "select t.TeamRef as TeamRef, " +
@@ -19,7 +20,7 @@ namespace TeamRespository.SingleQuerySql
                           "from Team t " +
                           "left join Player p on t.TeamRef = p.TeamRef";
 
-            var connectionString = ConfigurationManager.ConnectionStrings["Test"].ConnectionString;
+            
 
             using (var conn = new SqlConnection(connectionString))
             {

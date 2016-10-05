@@ -244,3 +244,5 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /Database2/Database2.jfm
+/Database2/Database2_2.publish.sql
+/DapperDemoTests
